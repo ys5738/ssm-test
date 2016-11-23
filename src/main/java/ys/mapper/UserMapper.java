@@ -1,10 +1,10 @@
-package ys.dao;
+package ys.mapper;
 
 import java.util.List;
 
 import ys.pojo.User;
 
-public interface UserDao {
+public interface UserMapper {
 	public String getNameById(int id);
 	public String getPswById(int id);
 	public int getAgeById(int id);
